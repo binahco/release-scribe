@@ -1,0 +1,18 @@
+# Manifest del consumidor. Contrato e inventario a la vez (ARCHITECTURE.md §2.1).
+week: 3
+name: release-scribe
+core_version: 0.3.0
+
+reused_modules:
+  - llm-client
+  - schema-validate
+
+new_surface:
+  - CLI de release notes con salida JSON validada por schema-validate
+  - prompt release-notes-generator (frontmatter + render)
+  - evals/release-notes-generator (seed)
+
+estimated_new_surface: 40
+
+# Presupuesto máximo de evals en USD por semana (ARCHITECTURE.md §8.1).
+eval_budget_usd: 2.0
