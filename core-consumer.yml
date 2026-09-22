@@ -6,11 +6,12 @@ core_version: 0.3.0
 reused_modules:
   - llm-client
   - schema-validate
+  - test-kit
 
 new_surface:
   - CLI de release notes con salida JSON validada por schema-validate
   - prompt release-notes-generator (frontmatter + render)
-  - evals/release-notes-generator (seed)
+  - "evals/release-notes-generator: 3 casos congelados (retrofit #0, sem 6)"
 
 estimated_new_surface: 40
 

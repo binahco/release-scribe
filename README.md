@@ -67,7 +67,7 @@ intentos) y el span lo registra (`repaired_attempts`).
 
 ## Roadmap
 
-- [ ] Evaluación `eval-smoke` con el dataset de `evals/` (sem. 5, test-kit)
+- [x] Evaluación `eval-smoke` con el dataset de `evals/` (sem. 5, test-kit; 3 casos congelados en el retrofit #0 de la sem. 6)
 - [ ] `--out` en Markdown además de JSON (composición con `docs-gen`, sem. 12)
 - [ ] Detectar breaking changes desde `BREAKING CHANGE` en el pie del commit, no solo del tipo
 - [ ] Retrofit al core si la extracción de commits-previos pidiera soporte en `git_diff` (ver `retrofit-issue.md`)
